@@ -1,0 +1,1 @@
+{"patience": 100, "layer_nodes": 32, "activation_last": "relu", "activation": "relu", "lr": 0.01, "batch_size": 200000}

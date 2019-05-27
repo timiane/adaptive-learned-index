@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="kerasify" targetName="kerasify" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0253a3d0-170f-4ce6-b6e9-b75852f89506" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LIF/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LIF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LIF/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../btree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../btree/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/COPYING.GPLv3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/Doxyfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/config.status" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/configure.ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00001.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00002.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00003.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00004.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00005.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00006.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00007.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00008.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00009.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00010.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00011.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00012.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00013.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00014.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00015.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00016.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00017.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00018.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00019.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00020.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00021.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00022.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00024.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00024_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00025.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00026.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00026_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00027.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00027_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00028.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00028_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00029.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00029_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00030.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00030_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00031.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00031_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00032.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00032_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00033.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00033_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00034.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00034_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00036.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00038.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00039.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00040.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00041.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00042.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00043.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00044.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00045.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00046.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00047.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00048.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00049.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00050.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00051.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00052.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00053.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00054.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00055.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00056.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/a00057.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/annotated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/bc_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/doxygen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/doxygen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x63.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x64.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x65.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x66.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x67.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x68.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x6b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x6c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x6d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x6e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x6f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x70.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x72.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x73.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x74.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x75.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x76.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_0x7e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_enum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_eval.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x63.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x64.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x65.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x66.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x67.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x68.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x6b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x6c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x6d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x6e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x6f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x70.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x72.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x73.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x74.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x75.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x76.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_func_0x7e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_rela.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_type.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/functions_vars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/globals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/globals_defs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/hierarchy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/installdox" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/namespaces.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/nav_f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/nav_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_61.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_63.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_64.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_65.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_66.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_66.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_67.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_67.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_68.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_68.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_69.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_6f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_70.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_70.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_72.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_72.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_73.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_74.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_75.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_75.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_76.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_76.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_7e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/all_7e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_63.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_64.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_65.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_69.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_6c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_6c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_6e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_72.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_72.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_74.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_76.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/classes_76.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/defines_62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/defines_62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/enums_72.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/enums_72.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/enumvalues_62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/enumvalues_62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/files_62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/files_62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_61.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_63.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_64.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_65.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_65.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_66.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_66.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_67.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_67.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_68.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_68.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_69.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_6f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_70.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_70.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_72.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_72.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_73.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_74.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_75.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_75.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_76.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_76.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_7e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/functions_7e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/mag_sel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/namespaces_73.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/namespaces_73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/nomatches.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/related_62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/related_62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/related_63.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/related_63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/related_69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/related_69.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/related_72.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/related_72.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/search_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/search_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/search_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_61.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_63.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_64.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_69.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_6b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_70.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_70.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_72.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_72.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_73.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_74.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_76.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/typedefs_76.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_61.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_61.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_62.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_63.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_64.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_66.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_66.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_69.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_6b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_6c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_6c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_6d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_6d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_6e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_70.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_70.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_73.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_73.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_74.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_74.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_75.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_75.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_76.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/search/variables_76.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/tab_a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/tab_b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/tab_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/tab_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/doxygen-html/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/.deps/main.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/.deps/malloc_count.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/main.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/malloc_count.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/malloc_count.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/memprofile.gnuplot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/memprofile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/results-2013/commit-adb11e3bda6db90b85802074941d570892be5217" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/results-2013/memprofile-btreemap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/results-2013/memprofile-deque.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/results-2013/memprofile-hashmap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/results-2013/memprofile-stdmap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/results-2013/memprofile-unorderedmap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/results-2013/memprofile-vector.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/results-2013/memprofile.gnuplot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/memprofile/results-2013/memprofile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/.deps/speedtest-tune.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/.deps/speedtest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2007/speed-all.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2007/speed-all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2007/speed-find.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2007/speed-find.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2007/speed-insert.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2007/speed-insert.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2007/speedtest.gnuplot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2007/speedtest.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2011/speed-all.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2011/speed-all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2011/speed-find.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2011/speed-find.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2011/speed-insert.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2011/speed-insert.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2011/speedtest.gnuplot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2011/speedtest.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/new/commit-526bbe4d2cdd10718d735732de1fa929fbe34d8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/new/speed-map-all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/new/speed-map-find.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/new/speed-map-insert.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/new/speed-set-all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/new/speed-set-find.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/new/speed-set-insert.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/old/commit-cadd15696dec928153a93d14ca0e72f349b28d0e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/old/speed-map-all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/old/speed-map-find.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/old/speed-map-insert.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/old/speed-set-all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/old/speed-set-find.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/old/speed-set-insert.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/speedtest-delta.gnuplot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013-delta/speedtest-delta.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/commit-7355d40ca17d9787d1110d42a5c94e2930050467" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-map-all.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-map-all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-map-find.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-map-find.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-map-insert.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-map-insert.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-set-all.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-set-all.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-set-find.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-set-find.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-set-insert.trt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speed-set-insert.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speedtest.gnuplot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/results-2013/speedtest.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/speedtest-tune.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/speedtest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/speedtest.gnuplot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/speedtest/transpose.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/BoundTest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/BulkLoadTest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/DumpRestoreTest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/InstantiationTest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/IteratorTest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/LargeTest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/RelationTest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/SimpleTest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/StructureTest.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/.deps/tpunit.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/BoundTest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/BoundTest.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/BulkLoadTest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/BulkLoadTest.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/DumpRestoreTest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/DumpRestoreTest.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/InstantiationTest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/InstantiationTest.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/IteratorTest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/IteratorTest.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/LargeTest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/LargeTest.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/RelationTest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/RelationTest.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/SimpleTest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/SimpleTest.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/StructureTest.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/StructureTest.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/testsuite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/tpunit.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/tpunit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/testsuite/tpunit.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/.deps/WMain.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/.deps/WMain_wxg.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/.deps/WTreeDrawing.Po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/WMain.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/WMain.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/WMain_wxg.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/WMain_wxg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/WTreeDrawing.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/WTreeDrawing.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/progicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/progicon.xcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/progicon.xpm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/resources.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../btree/stx-btree-0.9/wxbtreedemo/wxBTreeDemo.wxg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../models/NeuralNetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/../models/NeuralNetwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../params.json" beforeDir="false" afterPath="$PROJECT_DIR$/../params.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="173" />
+    <option name="y" value="47" />
+    <option name="width" value="1400" />
+    <option name="height" value="983" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kerasify" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kerasify" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="kerasify" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="kerasify" TARGET_NAME="kerasify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="kerasify" RUN_TARGET_NAME="kerasify">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0253a3d0-170f-4ce6-b6e9-b75852f89506" name="Default Changelist" comment="" />
+      <created>1545136711711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545136711711</updated>
+      <workItem from="1545136713949" duration="676000" />
+      <workItem from="1547631039345" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="704000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1613" height="1025" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21825144" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32924107" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
