@@ -21,18 +21,26 @@ def load_dict(path):
 
 
 def get_min_max_error(predictions, index):
-    true_index = np.arange(predictions.size)
-    max_error = 0
-    min_error = predictions.size
-    for i in range(predictions.size):
-        error = abs(true_index[i] - predictions[i])[0].astype(int)
-        if error < min_error:
-            min_error = error
-        if error > max_error:
-            max_error = error
-    print("max_error = " + str(max_error) + " and min error = " + str(min_error) + " for stage " + str(index))
+    predictions = predictions.reshape(-1, 1)
+    true_index = np.arange(predictions.size).reshape(-1,1)
+    error = true_index - predictions
+    max_error = error.max()
+    min_error = error.min()
+    average_error = 0
+    for error_element in error:
+        average_error += abs(error_element)
+
+    if average_error[0] != 0:
+        average_error = average_error[0] / len(error)
+    else:
+        average_error = average_error[0]
+
+
+    print("max_error = " + str(max_error) + " and min error = " + str(min_error) + " average error:" + str(average_error))
 
 def plot_results_vs_actual(keys, prediction):
+    keys = keys.reshape(-1, 1)
+    prediction = prediction.reshape(-1,1)
     actual_pos = np.arange(keys.size)
     predicted_pos = np.array(prediction).flatten()
     plt.plot(keys, predicted_pos, 'r', keys, actual_pos, 'b')

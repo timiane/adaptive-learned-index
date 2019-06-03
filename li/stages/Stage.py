@@ -24,16 +24,16 @@ class Stage:
     def select_data(self, index, data):
         return data[np.where(data[:, 1] == index)]
 
-    @classmethod
-    def load_stage(cls, path, index):
+
+    def load_stage(self, path, index):
         directory = os.listdir(path)
         directory.sort()
         directory.sort(key=len, reverse=False)
         models = []
         for file in directory:
             if file.startswith(str(index)):
-                models.append(load(path + str(file)))
-        return cls(index, models)
+                self.models.append(load(path + str(file)))
+        self.length = len(self.models)
 
     def predict_next_model(self, data, next_layer_size):  # predict model to use in next layer
         prediction = []
@@ -46,8 +46,8 @@ class Stage:
             prediction.append(temp_results)
         prediction = np.vstack(prediction)
         # sf.get_min_max_error(prediction, self.index)
-
-        return self.model_predictions(data[:, 1].size, next_layer_size, prediction)
+        predictions = self.model_predictions(data[:, 1].size, next_layer_size, prediction)
+        return predictions
 
     def predict(self, data):  # predicts the index of the data
         prediction = []
@@ -57,8 +57,9 @@ class Stage:
             model = self.select_model(int(model_index))
             temp_data = self.select_data(model_index, data)[:, 0]
             temp_results = model.predict(temp_data)
-            prediction.append(temp_results)
-        prediction = np.array(prediction).reshape(-1, 1)
+            prediction.extend(temp_results)
+        prediction = np.array(prediction)
+        prediction = prediction
         prediction = np.vstack(prediction)
         # sf.get_min_max_error(prediction, self.index)
         return prediction
@@ -66,6 +67,7 @@ class Stage:
     def model_predictions(self, data_size, next_layer_size,
                           prediction):  # determine model based on predicted index and next layer size
         models_keys_pr_model = (data_size / next_layer_size)
-        return np.floor_divide(prediction, models_keys_pr_model)
+        predictions = np.floor_divide(prediction, models_keys_pr_model)
+        return predictions
 
 

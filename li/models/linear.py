@@ -33,6 +33,6 @@ class Linear(model):
     #     return prediction
 
     def predict(self, data):  # apply the data to the model
-        keys = data[:, 0]
+        keys = data
         keys = keys.reshape(keys.size, 1)
         return self.model.predict(keys)

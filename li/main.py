@@ -12,8 +12,9 @@ from stages.kerasify import export_model
 import static_functions as sf
 from models.spline import Spline
 from models.isotonicregressor import IsotonicRegressor
-from models.multivariateregression import MultiVariateRegression
+from models.mutlivariateregressionLi import MultiVariateRegression
 from models.nearest_neighbor_regression import NearestNeighborRegression
+from models.linear import Linear
 
 MODEL_PREDICTOR = 0
 
@@ -43,10 +44,12 @@ def load_models(directory_path):
     layers = []
     length = len(MODEL_PR_LAYER)
     for i in range(length - 1):
-        result = KerasModelStage.load_stage(directory_path, i)
-        layers.append(result)
-    result = LinearModelStage.load_stage(directory_path, length - 1)
-    layers.append(result)
+        stage = Stage(i+1)
+        result = stage.load_stage(directory_path, i)
+        layers.append(stage)
+    stage = Stage(length)
+    result = stage.load_stage(directory_path, length - 1)
+    layers.append(stage)
     return layers
 
 
@@ -63,7 +66,8 @@ def get_model_data(results, model, models_in_layer):
 def distribute_next_layer(data, size, models_pred):  # distribute data to next layer
     temp_data = np.array(data)
     index = np.arange(0, size)
-    results = np.append([temp_data, index], [models_pred], axis=0)
+
+    results = np.append([temp_data, index], models_pred, axis=0)
     return results.T
 
 
@@ -100,7 +104,7 @@ def build_or_append_model_pred(model_pred, temp_pred):
 def build_multi_staged_model(data_set, models_pr_stage):  # build multi staged model
     size = data_set.size
     stages_count = len(models_pr_stage)
-    key_index_model_array = distribute_next_layer(data_set, size, np.zeros(size))
+    key_index_model_array = distribute_next_layer(data_set, size, [np.zeros(size)])
     stages = []
 
     for stage_index in range(stages_count):
@@ -112,19 +116,19 @@ def build_multi_staged_model(data_set, models_pr_stage):  # build multi staged m
             temp_data = get_model_data(key_index_model_array, model_index, models_pr_stage[stage_index])
             data_to_test = temp_data[:, 0]
             index = temp_data[:, 1]
-            meta_features = me(temp_data).values
-            meta_features = np.append(meta_features, [[0.33, 0.33, 0.33]]).reshape(1, 12)
+            meta_features = me(data_to_test).values
+            meta_features = np.append(meta_features, [[0.1, 0.1, 0.8]]).reshape(1, 11)
             selected_model = MODEL_PREDICTOR.predict(meta_features)[0]
 
             if selected_model[0] == selected_model.max():
                 model = IsotonicRegressor(data_to_test, index)
 
             elif selected_model[1] == selected_model.max():
-                model = MultiVariateRegression(data_to_test, index)
+                model = Spline(data_to_test, index)
             elif selected_model[2] == selected_model.max():
-                model = NearestNeighborRegression(data, index)
-            else:
-                model = Spline(data, index)
+                model = Linear(data_to_test, index)
+
+
 
             if models_pr_stage[stage_index] == models_pr_stage[-1]:  # check if last stage
                 stage.models = np.append(stage.models, model)
@@ -135,6 +139,7 @@ def build_multi_staged_model(data_set, models_pr_stage):  # build multi staged m
                 model_pred = build_or_append_model_pred(model_pred, temp_models)
 
         if not models_pr_stage[stage_index] == models_pr_stage[-1]:  # check if last stage
+            model_pred = model_pred.reshape(1, -1)
             key_index_model_array = distribute_next_layer(data_set, size, model_pred)
         stage.length = len(stage.models)
         stages.append(stage)
@@ -162,7 +167,7 @@ def train_neural_network(neural_network, params):
 
 
 def calculate_next_layer_models(reshaped_data, stage, current_stage_data, next_stage_size):
-    predictions = stage.predict_next_model(current_stage_data, next_stage_size)[0].reshape(-1, 1)
+    predictions = stage.predict_next_model(current_stage_data, next_stage_size).reshape(-1,1)
     result = np.append(reshaped_data, predictions, axis=1)
     return result
 
@@ -202,9 +207,11 @@ def build_and_predict(keys, file_path):
     else:
         print("loading stages")
         layers = load_models(file_path)
-    export_models(layers, file_path)
+    # export_models(layers, file_path)
     print("predicting index")
     prediction = predict_index(layers, keys)
+    print("error")
+    sf.get_min_max_error(prediction, np.array(range(0, len(prediction))))
     print("plotting stages")
     sf.plot_results_vs_actual(keys, prediction)
 
@@ -218,7 +225,7 @@ def load_data(name):
         # 'norm_short': np.loadtxt('data/norm_dist/sorted.txt'),
         # 'sas_short': np.loadtxt('data/sas.csv'),
         # 'osm_short': np.sort(np.loadtxt('data/osm.csv')),
-        # 'beta1': np.sort(np.loadtxt('data/beta1.csv')),
+        'beta22': np.sort(np.loadtxt('data/beta22.csv')),
         # 'beta2': np.sort(np.loadtxt('data/beta2.csv')),
         # 'beta3': np.sort(np.loadtxt('data/beta3.csv')),
         # 'beta4': np.sort(np.loadtxt('data/beta4.csv')),
@@ -234,21 +241,22 @@ def load_data(name):
 def multiple_regression(data, name):
     labels = np.arange(data.size).reshape(-1, 1)
     data = data.reshape(-1, 1)
-    reg = mvr.MultiVariateRegression(data, labels)
+    reg = mvr.MultivariateRegression(data, labels)
     optimal_params = optimize_model(reg, 15)
     optimal_model, b, c = reg.create_model(optimal_params, True)
     model_to_string(b, c, optimal_params, name)
 
 
 if __name__ == '__main__':
-    MODEL_PR_LAYER = [1, 3]  # short = [1,1000] others = [1,10,1000]
-    USE_OLD_MODELS = False  # True if use previously created stages else False
-    json_file = open('/home/timian/Documents/Code/ARR/model.json', 'r')
+    MODEL_PR_LAYER = [1, 1000]  # short = [1,1000] others = [1,10,1000]
+    USE_OLD_MODELS = True  # True if use previously created stages else False
+    json_file = open('C:/Users/Timian/Documents/Code/ARR/model.json', 'r')
     loaded_model_json = json_file.read()
     json_file.close()
     MODEL_PREDICTOR = keras.models.model_from_json(loaded_model_json)
-    MODEL_PREDICTOR.load_weights('/home/timian/Documents/Code/ARR/weights.h5')
-    print(MODEL_PREDICTOR)
+    MODEL_PREDICTOR.load_weights('C:/Users/Timian/Documents/Code/ARR/weights.h5')
     data, path = load_data('osm')
+    # data = np.array([1,2,3,4,5,6])
+    # path = ""
     # multiple_regression(data, str(sys.argv[1]))
     build_and_predict(data, path)

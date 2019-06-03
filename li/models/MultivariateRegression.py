@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
 
-class MultiVariateRegression:
+class MultivariateRegression:
     def __init__(self, data, labels):
         self.coefs = None
         self.b = None

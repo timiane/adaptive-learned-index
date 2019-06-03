@@ -137,9 +137,12 @@ def complexity_curve(X, points=10000, k=100, bw=None, **kwargs):
 
 def calculate_data_complexity(data, points, k, subset_column_number):
     if(len(data) > 100000):
+        print('reducing datasize from ' + str(len(data)))
         reduce_dataset_iteration(data, 100000, 1000)
+    print('dataset reduced')
     data = data.reshape(int(data.size / subset_column_number), subset_column_number)  # The last 10 indicates the number of columns in the subsets
     cc = complexity_curve(data, points=points, k=k)
     error = cc[:, 1] + cc[:, 2]
     auc = calculate_normalized_auc(error, cc[:, 0])
+    print('calculated complexity curve')
     return auc, error, cc[:, 0]
