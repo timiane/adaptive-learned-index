@@ -398,11 +398,11 @@ if __name__ == '__main__':
     print("hej")
      # short = [1,1000] others = [1,10,1000]
     USE_OLD_MODELS = False  # True if use previously created stages else False
-    json_file = open('C:/Users/Timian/Documents/Code/ARR/model.json', 'r')
+    json_file = open('C:/Users/Timian/Documents/Code/Acquisition/model.json', 'r')
     loaded_model_json = json_file.read()
     json_file.close()
     MODEL_PREDICTOR = keras.models.model_from_json(loaded_model_json)
-    MODEL_PREDICTOR.load_weights('C:/Users/Timian/Documents/Code/ARR/weights.h5')
+    MODEL_PREDICTOR.load_weights('C:/Users/Timian/Documents/Code/Acquisition/weights.h5')
     data = load_data()
     # path = 'stages/logisadaptive/'
     # data = np.array([1,2,3,4,5,6])

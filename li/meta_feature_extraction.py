@@ -6,7 +6,7 @@ import hellinger.complexity_curve as cc
 
 def extract_meta_features(data):
     robj.globalenv['args'] = robj.FloatVector(data)
-    robj.r.source("C:/Users/Timian/Documents/Code/ARR/metaFeatureExtraction.R")
+    robj.r.source("C:/Users/Timian/Documents/Code/Acquisition/metaFeatureExtraction.R")
     frame = robj.globalenv['resultForPython']
     pd_df = pd.DataFrame.from_dict({key: np.asarray(frame.rx2(key)) for key in frame.names})
     pd_df.rename(columns = {'x': 'CORR'}, inplace=True)
