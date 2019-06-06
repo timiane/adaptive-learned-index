@@ -1,0 +1,1 @@
+{"activation": "sigmoid", "activation_last": "linear", "batch_size": 584, "layer_nodes": 32, "lr": 0.1, "patience": 50}

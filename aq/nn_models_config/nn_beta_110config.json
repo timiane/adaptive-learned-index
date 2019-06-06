@@ -1,0 +1,1 @@
+{"activation": "linear", "activation_last": "linear", "batch_size": 519, "layer_nodes": 16, "lr": 0.01, "patience": 50}
