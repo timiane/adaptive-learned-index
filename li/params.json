@@ -1,1 +1,1 @@
-{"patience": 100, "layer_nodes": 32, "activation_last": "relu", "activation": "relu", "lr": 0.01, "batch_size": 200000}
+{"activation": "relu", "activation_last": "sigmoid", "batch_size": 16616, "layer_nodes": 32, "lr": 0.01, "patience": 10}

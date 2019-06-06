@@ -1,5 +1,5 @@
 from models.model import model
-from scipy.interpolate import InterpolatedUnivariateSpline
+from scipy.interpolate import CubicSpline
 import numpy as np
 
 class Spline(model):
@@ -7,7 +7,8 @@ class Spline(model):
         self.model = self.create_model(data, labels)
 
     def create_model(self, data, labels):
-        return InterpolatedUnivariateSpline(data, labels)
+        data = np.unique(data)
+        return CubicSpline(data, labels)
 
     def predict(self, data):
         data = np.array(data).reshape(-1, 1)

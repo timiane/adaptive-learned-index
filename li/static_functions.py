@@ -36,11 +36,12 @@ def get_min_max_error(predictions, index):
         average_error = average_error[0]
 
 
-    print("max_error = " + str(max_error) + " and min error = " + str(min_error) + " average error:" + str(average_error))
-
+    # print("max_error = " + str(max_error) + " and min error = " + str(min_error) + " average error:" + str(average_error))
+    return [max_error, min_error, average_error]
 def plot_results_vs_actual(keys, prediction):
-    keys = keys.reshape(-1, 1)
-    prediction = prediction.reshape(-1,1)
+
+    keys = np.array(keys).reshape(-1, 1)
+    prediction = np.array(prediction).reshape(-1,1)
     actual_pos = np.arange(keys.size)
     predicted_pos = np.array(prediction).flatten()
     plt.plot(keys, predicted_pos, 'r', keys, actual_pos, 'b')

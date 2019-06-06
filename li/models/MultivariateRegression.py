@@ -11,13 +11,13 @@ class MultivariateRegression:
         self.coefs = None
         self.b = None
         self.model = None
-        self.poly = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        self.poly = [2, 4, 6, 8, 10, 14, 18, 22, 30, 35, 40, 50]
         self.log = [1, 2, 3, 4, 5, 6]
         self.cos = [False, True]
         self.space = {
             'poly': hp.choice('poly', self.poly),
-            'log': hp.choice('log', self.log),
-            'cos': hp.choice('cos', self.cos)
+            # 'log': hp.choice('log', self.log),
+            # 'cos': hp.choice('cos', self.cos)
         }
         self.data = data
         self.labels = labels
@@ -47,9 +47,9 @@ class MultivariateRegression:
     def create_model(self, params, new=False):
         train_data = self.data
         train_data = self.add_poly_features(params['poly'])
-        train_data = self.add_log_features(params['log'], train_data)
-        if params['cos']:
-            train_data = self.add_cos_features(params['cos'], train_data)
+        # train_data = self.add_log_features(params['log'], train_data)
+        # if params['cos']:
+        #     train_data = self.add_cos_features(params['cos'], train_data)
 
         model = LinearRegression()
         model.fit(train_data, self.labels)
